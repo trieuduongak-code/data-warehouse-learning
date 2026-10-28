@@ -1,14 +1,15 @@
-.env
-.env.*
-!.env.example
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
 
+# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 
-logs/
-*.log
-
-.DS_Store
-Thumbs.db
+# Secrets
+.env
+.env.*
+!.env.example
